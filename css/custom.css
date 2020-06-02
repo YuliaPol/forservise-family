@@ -1,0 +1,219 @@
+.buttons-wrap {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.table-user {
+  margin-top: 20px;
+}
+
+.table-user .user-photo {
+  width: 100px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.table-user .user-photo img {
+  max-width: 100%;
+}
+
+.control-links {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.control-links a,
+.control-links div.btn {
+  display: block;
+  margin: 2px;
+  padding: 3px 5px;
+}
+
+.form-add-user .file-name {
+  padding: 6px 12px;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 1.475;
+  vertical-align: middle;
+}
+
+.form-add-user .preview-photo {
+  padding: 10px 0px;
+}
+
+.form-add-user .preview-photo .user-photo {
+  max-width: 80px;
+}
+
+.form-add-user .preview-photo .user-photo img {
+  max-width: 100%;
+}
+
+.dataDepartment .label {
+  font-size: 12px;
+}
+
+.table-course .course-img {
+  max-width: 50px;
+  margin: auto;
+}
+
+.table-course .course-img img {
+  max-width: 100%;
+}
+
+.table-course .label {
+  font-size: 12px;
+}
+
+.form-add-course .add-chapter {
+  font-size: 16px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.form-add-course .file-name {
+  padding: 6px 12px;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 1.475;
+  vertical-align: middle;
+}
+
+.form-add-course .file-name {
+  padding: 6px 12px;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 1.475;
+  vertical-align: middle;
+}
+
+.form-add-course .preview-photo {
+  padding: 10px 0px;
+}
+
+.form-add-course .preview-photo .user-photo {
+  max-width: 80px;
+}
+
+.form-add-course .preview-photo .user-photo img {
+  max-width: 100%;
+}
+
+.form-add-course .editor-wrap {
+  padding-top: 20px;
+}
+
+.form-add-course .editor-wrap .title {
+  font-weight: normal;
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+.form-add-course .checkbox-wrap .checkbox input[type=checkbox],
+.form-add-course .checkbox-wrap .checkbox-inline input[type=checkbox],
+.form-add-course .checkbox-wrap .radio input[type=radio],
+.form-add-course .checkbox-wrap .radio-inline input[type=radio] {
+  margin-left: 0px;
+}
+
+.form-add-course .file-link {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.box-curse-section {
+  padding: 15px 0px;
+}
+
+.bootstrap-datetimepicker-widget {
+  z-index: 10001 !important;
+}
+
+.form-set-course {
+  padding-bottom: 20px;
+}
+
+.form-add-question .add-new-any-question {
+  margin-left: 15px;
+}
+
+.table-total-course .form-control {
+  max-width: 120px;
+  width: 100%;
+}
+
+.table-total-course.table > thead > tr > th {
+  vertical-align: top;
+}
+
+.table-total-course.table.dataTable thead .sorting:after,
+.table-total-course.table.dataTable thead .sorting_asc:after,
+.table-total-course.table.dataTable thead .sorting_asc_disabled:after,
+.table-total-course.table.dataTable thead .sorting_desc:after,
+.table-total-course.table.dataTable thead .sorting_desc_disabled:after {
+  top: 8px;
+  bottom: auto;
+}
+
+#container .table th {
+  font-size: 0.9em;
+}
+
+.table-news {
+  margin-top: 20px;
+}
+
+.table-news .news-img {
+  width: 150px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.table-news .news-img img {
+  max-width: 100%;
+}
+
+.error {
+  color: red;
+  display: none;
+}
+
+.has-error .error {
+  display: block;
+  color: red;
+}
+
+.list-group {
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 1400px) {
+  .table-user .form-control {
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .table-user .user-photo {
+    width: 50px;
+  }
+  .page-header {
+    padding-left: 10px;
+  }
+}
+/*# sourceMappingURL=custom.css.map */
