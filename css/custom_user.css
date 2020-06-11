@@ -405,6 +405,46 @@
   clear: both;
 }
 
+.custom-list-group .list-group-item-custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.custom-list-group .list-group-item-custom .link {
+  width: 100%;
+}
+
+.custom-list-group .list-group-item-custom .number {
+  min-width: 20px;
+  text-align: right;
+}
+
+.custom-list-group .list-group-item-custom .number .badge-custom {
+  display: inline-table;
+  vertical-align: middle;
+  background-color: #25476a;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  line-height: 12px;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
 @media screen and (min-width: 1200px) {
   .custom-row .cs-col-lg-5 {
     width: 20%;

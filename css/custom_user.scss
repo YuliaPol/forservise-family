@@ -298,6 +298,35 @@
         clear: both;
     }
 }
+.custom-list-group {
+    .list-group-item-custom {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        .link {
+            width: 100%;
+        }
+        .number {
+            min-width: 20px;
+            text-align: right;
+            .badge-custom {
+                display: inline-table;
+                vertical-align: middle;
+                background-color: #25476a;
+                min-width: 10px;
+                padding: 3px 7px;
+                font-size: 12px;
+                line-height: 12px;
+                color: #fff;
+                text-align: center;
+                white-space: nowrap;
+                vertical-align: middle;
+                border-radius: 10px;
+            }
+        }
+    }
+}
 @media screen and (min-width: 1200px) {
     .custom-row {
         .cs-col-lg-5 {
