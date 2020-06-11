@@ -17,7 +17,7 @@
     <link href="./../premium/icon-sets/icons/solid-icons/premium-solid-icons.min.css" rel="stylesheet">
     <link href="./../plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet">
     <link href="./../plugins/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet">
-    <link href="./.././css/custom.css" rel="stylesheet">
+    <link href="./.././css/custom_user.css" rel="stylesheet">
 </head>
 
 <body>
@@ -116,8 +116,8 @@
                 <!--===================================================-->
                 <div id="page-content">
                     <hr class="new-section-sm bord-no">
-                    <div class="row mh-byrow">
-                        <div class="col-md-6">
+                    <div class="row equal">
+                        <div class="col-md-6 col-xs-12">
                             <div class="panel panel-bordered panel-dark">
                                 <div class="panel-heading">
                                     <h3 class="panel-title">Просмотр курса</h3>
@@ -140,7 +140,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-xs-12">
                             <div class="panel panel-bordered panel-dark">
                                 <!--Panel heading-->
                                 <div class="panel-heading">
@@ -202,8 +202,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row mh-byrow">
-                        <div class="col-md-4">
+                    <div class="row equal">
+                        <div class="col-md-4 col-xs-12">
                             <div class="panel panel-bordered panel-dark">
                                 <div class="panel-heading">
                                     <h3 class="panel-title">Файл от раздела - Видео</h3>
@@ -220,7 +220,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-xs-12">
                             <div class="panel panel-bordered panel-dark">
                                 <div class="panel-heading">
                                     <h3 class="panel-title">Файл от раздела - Аудио</h3>
@@ -237,7 +237,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-xs-12">
                             <div class="panel panel-bordered panel-dark">
                                 <div class="panel-heading">
                                     <h3 class="panel-title">Файл от раздела - Видео duration</h3>
@@ -436,16 +436,10 @@
         <script src="./../plugins/bootstrap-select/bootstrap-select.min.js"></script>
         <script src="./../plugins/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
         <script src="./../plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js"></script>
-        <script src="./../plugins/jquery-match-height/jquery-match-height.min.js"></script>
         <script src="./../js/custom.js"></script>
 
         <script>
             jQuery(function ($) {
-                $('.mh-byrow').each(function () {
-                    $(this).find('.panel').matchHeight({
-                        byRow: true
-                    });
-                });
                 $(document).ready(function () {
                     $('.date-entry .input-group.date').datepicker({
                         autoclose: true,

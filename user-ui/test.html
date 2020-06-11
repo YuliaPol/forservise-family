@@ -17,7 +17,7 @@
     <link href="./../premium/icon-sets/icons/solid-icons/premium-solid-icons.min.css" rel="stylesheet">
     <link href="./../plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet">
     <link href="./../plugins/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet">
-    <link href="./.././css/custom.css" rel="stylesheet">
+    <link href="./.././css/custom_user.css" rel="stylesheet">
 </head>
 
 <body>
@@ -116,8 +116,8 @@
                 <!--===================================================-->
                 <div id="page-content">
                     <hr class="new-section-sm bord-no">
-                    <div class="row mh-byrow">
-                        <div class="col-sm-6  col-lg-3">
+                    <div class="row custom-row">
+                        <div class="col-md-3 cs-col-lg-5 col-xs-6 col-xxs-12">
                             <div class="panel pos-rel panel-course">
                                 <div class="top-labels pad-all">
                                     <div class="label label-default"><i class="pli-yes icon-fw"></i>4</div>
@@ -125,7 +125,7 @@
                                 </div>
                                 <div class="pad-all text-center">
                                     <a href="./test_view.html">
-                                        <div class="course-img match-img mar-ver" data-match-height="items-b">
+                                        <div class="course-img match-img mar-ver">
                                             <img alt="Profile Picture"  src="./../img/css.jpg">
                                         </div>
                                         <p class="text-lg text-semibold mar-no text-main">Тест CSS</p>
@@ -133,7 +133,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6  col-lg-3">
+                        <div class="col-md-3 cs-col-lg-5 col-xs-6 col-xxs-12">
                             <div class="panel pos-rel panel-course">
                                 <div class="top-labels pad-all">
                                     <div class="label label-default"><i class="pli-yes icon-fw"></i>2</div>
@@ -141,7 +141,7 @@
                                 </div>
                                 <div class="pad-all text-center">
                                     <a href="./test_view.html">
-                                        <div class="course-img match-img mar-ver" data-match-height="items-b">
+                                        <div class="course-img match-img mar-ver">
                                             <img alt="Profile Picture"  src="./../img/php.png">
                                         </div>
                                         <p class="text-lg text-semibold mar-no text-main">Тест PHP</p>
@@ -149,7 +149,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6  col-lg-3">
+                        <div class="col-md-3 cs-col-lg-5 col-xs-6 col-xxs-12">
                             <div class="panel pos-rel panel-course">
                                 <div class="top-labels pad-all">
                                     <div class="label label-default"><i class="pli-yes icon-fw"></i>2</div>
@@ -157,7 +157,7 @@
                                 </div>
                                 <div class="pad-all text-center">
                                     <a href="./test_view.html">
-                                        <div class="course-img match-img mar-ver" data-match-height="items-b">
+                                        <div class="course-img match-img mar-ver">
                                             <img alt="Profile Picture"  src="./../img/js.jpg">
                                         </div>
                                         <p class="text-lg text-semibold mar-no text-main">Тест CSS</p>
@@ -165,7 +165,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6  col-lg-3">
+                        <div class="col-md-3 cs-col-lg-5 col-xs-6 col-xxs-12">
                             <div class="panel pos-rel panel-course">
                                 <div class="top-labels pad-all">
                                     <div class="label label-default"><i class="pli-yes icon-fw"></i>2</div>
@@ -173,7 +173,7 @@
                                 </div>
                                 <div class="pad-all text-center">
                                     <a href="./test_view.html">
-                                        <div class="course-img match-img mar-ver" data-match-height="items-b">
+                                        <div class="course-img match-img mar-ver">
                                             <img alt="Profile Picture"  src="./../img/php-2.jpg">
                                         </div>
                                         <p class="text-lg text-semibold mar-no text-main">Тест CSS</p>
@@ -181,7 +181,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6  col-lg-3">
+                        <div class="col-md-3 cs-col-lg-5 col-xs-6 col-xxs-12">
                             <div class="panel pos-rel panel-course">
                                 <div class="top-labels pad-all">
                                     <div class="label label-default"><i class="pli-yes icon-fw"></i>2</div>
@@ -189,7 +189,7 @@
                                 </div>
                                 <div class="pad-all text-center">
                                     <a href="./test_view.html">
-                                        <div class="course-img match-img mar-ver" data-match-height="items-b">
+                                        <div class="course-img match-img mar-ver">
                                             <img alt="Profile Picture"  src="./../img/php.png">
                                         </div>
                                         <p class="text-lg text-semibold mar-no text-main">Тест CSS</p>
@@ -379,18 +379,11 @@
         <script src="./../plugins/bootstrap-select/bootstrap-select.min.js"></script>
         <script src="./../plugins/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
         <script src="./../plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js"></script>
-        <script src="./../plugins/jquery-match-height/jquery-match-height.min.js"></script>
         <script src="./../js/custom.js"></script>
 
         <script>
             jQuery(function ($) {
                 $(document).ready(function () {
-                    $('.mh-byrow').each(function() {
-                        $(this).find('.div').matchHeight({
-                            byRow: true,
-                            target: $('.match-img')
-                        });
-                    });
                     $('.date-entry .input-group.date').datepicker({
                         autoclose: true,
                         language: 'ru',
