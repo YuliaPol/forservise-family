@@ -286,6 +286,18 @@
         margin-bottom: 0px;
     }
 }
+#container .list-group .badge.badge-primary {
+    font-size: 12px !important;
+    line-height: 12px !important;
+    font-weight: 300;
+    padding: 3px 7px !important;
+    margin: 0px;
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
 @media screen and (min-width: 1200px) {
     .custom-row {
         .cs-col-lg-5 {
